@@ -6,8 +6,7 @@ Phone: (123) 456-7890
 LinkedIn: linkedin.com/in/johndoe
 GitHub: github.com/johndoe
 
-Objective:
-A motivated software developer seeking a challenging role where I can apply my skills in Java, Spring Boot, and PostgreSQL to contribute to meaningful projects and further grow my technical abilities.
+Hi! I'm John Doe and I'm happy to be here, learning and growing every day!
 
 Education:
 Bachelor of Science in Computer Science | University of XYZ | May 2023
