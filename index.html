@@ -166,12 +166,28 @@
 
         <section id="contactme">
             <h2>Contact Me</h2>
-            <form action="dosomething.html">
+            <form action="dosomething.html" method="post">
                 <!-- The label is purely for the user! -->
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" />
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" />
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                </p>
+                <p>
+                    <label for="whycontacting">Why Contacting</label>
+                    <select id="whycontacting" name="whycontacting">
+                        <option value="jobinterview">Job Interview</option>
+                        <option value="needcontractor">New Contractor</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" row="3"></textarea>
+                </p>
+                <button type="submit">Send</button>
             </form>
         </section>
     </main>
