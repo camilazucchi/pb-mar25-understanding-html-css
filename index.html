@@ -167,8 +167,11 @@
         <section id="contactme">
             <h2>Contact Me</h2>
             <form action="dosomething.html">
-                <input type="text" name="name" />
-                <input type="email" name="email" />
+                <!-- The label is purely for the user! -->
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
             </form>
         </section>
     </main>
